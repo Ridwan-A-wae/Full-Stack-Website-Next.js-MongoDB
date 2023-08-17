@@ -17,10 +17,27 @@ a {
   color: inherit;
 }
 
-.container {
-  background-color: purple;
+.theme {
+  transition: 1s all ease;
 }
 
-.contact {
-  background-color: red;
+.light {
+  background-color: white;
+  color: #111;
 }
+
+.dark {
+  background-color: #111;
+  color: #bbb;
+}
+
+.container {
+  max-width: 1366px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
